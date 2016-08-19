@@ -1,0 +1,9 @@
+<component name="org.nuxeo.ecm.user.center.profile.locale.contrib.custom.configuration" >
+
+   <extension target="org.nuxeo.runtime.ConfigurationService" point="configuration">
+
+    <property name="nuxeo.force-locale">en</property>
+
+  </extension>
+
+</component>

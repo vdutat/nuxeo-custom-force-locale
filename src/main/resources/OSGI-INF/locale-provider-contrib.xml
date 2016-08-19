@@ -1,0 +1,11 @@
+<component name="org.nuxeo.ecm.user.center.profile.locale.contrib.custom" >
+
+<require>org.nuxeo.ecm.user.center.profile.locale.contrib</require>
+
+  <extension target="org.nuxeo.ecm.platform.web.common.locale" point="providers">
+
+    <provider class="org.nuxeo.ecm.platform.web.common.locale.CustomLocaleProvider"/>
+
+  </extension>
+
+</component>
