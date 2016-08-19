@@ -78,7 +78,7 @@ String loop = screenConfig.getVideoLoop() ? "loop " : "";
 %>
 
 <html>
-<fmt:setLocale value="fr" />
+<fmt:setLocale value="en" />
 <fmt:setBundle basename="messages" var="messages"/>
 
 <head>
