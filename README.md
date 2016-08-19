@@ -25,9 +25,7 @@ All you have to do is:
 
     </extension>
 ```
-
    * or create a file in `$NUXEO_HOME/nxserver/config/` (make sure the name ends with `-config.xml`) with the following XML:
-
 ```xml
     <component name="org.nuxeo.ecm.user.center.profile.locale.contrib.custom.configuration" >
 
