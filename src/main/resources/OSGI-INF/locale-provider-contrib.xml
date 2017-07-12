@@ -1,4 +1,4 @@
-<component name="org.nuxeo.ecm.user.center.profile.locale.contrib.custom" >
+ <component name="org.nuxeo.ecm.user.center.profile.locale.contrib.custom" >
 
 <require>org.nuxeo.ecm.user.center.profile.locale.contrib</require>
 

@@ -2,15 +2,14 @@
 <fragment version="1">
 
   <require>all</require>
-<!-- based on https://doc.nuxeo.com/display/NXDOC710/How+to+Force+Locale but does not work
+<!-- based on https://doc.nuxeo.com/nxdoc/how-to-force-locale -->
   <extension target="faces-config#APPLICATION_LOCALE" mode="replace">
     <locale-config>
-      <default-locale>en</default-locale>
-      <supported-locale>en_US</supported-locale>
+      <default-locale>fr_CA</default-locale>
+      <supported-locale>fr_CA</supported-locale>
     </locale-config>
     <message-bundle>messages</message-bundle>
   </extension>
- -->
 
   <install>
     <delete path="${bundle.fileName}.tmp" />
